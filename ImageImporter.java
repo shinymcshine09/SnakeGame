@@ -6,7 +6,6 @@ import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 
 /**
- * Class for importing the needed images.
  * Class for importing the game images.
  */
 public class ImageImporter
