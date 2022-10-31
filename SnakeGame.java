@@ -260,13 +260,10 @@ public class SnakeGame extends JPanel
                 }
             }
         }
-        if (score % 150 == 0 && score != 0 && timer < 60) {
-            specialFoodActive = true;
+        if (specialFoodActive) {
             g.drawImage(imageImporter.getSpecialFood(), specialFood.getXAxis(), specialFood.getYAxis(), squareSize, squareSize, null);
         }
-        else {
-            specialFoodActive = false;
-        }
+        
         // Draws food.
         g.drawImage(imageImporter.getFood(), food.getXAxis(), food.getYAxis(), squareSize, squareSize, null);
         // Draws snake head.
@@ -331,6 +328,7 @@ public class SnakeGame extends JPanel
                 score += 30;
                 gameSpeed += 50;
                 newFrame.setTitle("Snake, Score: " + score);
+                specialFoodActive = false;
             }
 
             while (ifFoodTouchingSnake(food) || (specialFood.getXAxis() == food.getXAxis() && specialFood.getYAxis() == food.getYAxis())) {
@@ -349,10 +347,12 @@ public class SnakeGame extends JPanel
             
             repaint();
 
-            if (score % 250 == 0) {
+            if (score % 150 == 0 && score != 0 && timer < 60) {
+                specialFoodActive = true;
                 timer += 1;
             }
             else {
+                specialFoodActive = false;
                 timer = 0;
             }
 
