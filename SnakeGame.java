@@ -260,11 +260,7 @@ public class SnakeGame extends JPanel
                 }
             }
         }
-<<<<<<< HEAD
         if (score % 150 == 0 && score != 0 && timer < 60) {
-=======
-        if (score % 250 == 0 && score != 0 && timer < 60) {
->>>>>>> parent of 325742c (changed amount of time special food remains.)
             specialFoodActive = true;
             g.drawImage(imageImporter.getSpecialFood(), specialFood.getXAxis(), specialFood.getYAxis(), squareSize, squareSize, null);
         }
