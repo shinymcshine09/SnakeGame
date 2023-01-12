@@ -10,6 +10,9 @@ import javax.swing.*;
 /**
  * Main class of the snake game deals with movement, game settings and painting graphics.
  * Run the main method to play.
+ * 
+ * @author James Hart
+ * @version 0.2
  */
 public class SnakeGame extends JPanel
 {
