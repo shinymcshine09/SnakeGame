@@ -1,6 +1,6 @@
 # SnakeGame
 
-This is a remake of Nokia's Snake game in Java as my first personal project. The purpose of this project was to give me something relatively easy to code.
+This is a remake of Nokia's Snake game in Java and is my first ever personal project. The purpose of this project was to give me something relatively easy to code whilst being fun to make.
 
 ## Description
 
