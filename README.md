@@ -4,13 +4,13 @@ This is a remake of Nokia's Snake game in Java as my first personal project. The
 
 ## Description
 
-Although this is a remake it is not attempting to clone the original game just the general rules and gameplay, implemented in Java with homemade sprites.
+Although this is a remake it is not attempting to clone the original game it just uses the general rules and gameplay, implemented in Java with homemade sprites.
 
 ## Getting Started
 
 ### Dependencies
 
-* Java 11 (this is what i used when writing the project, although previous version will most likely run the programme acceptably)
+* JavaSE-11 (this is what i used when writing the project, although earlier/later versions will most likely run the programme too)
 
 ### Installing
 
@@ -31,7 +31,7 @@ If you require any help you can email on the below email.
 
 Contributors names and contact info
 
-James Hart(Code)
+James Hart(Coding)
 js.hart@hotmail.com
 
 Katherine Pearson(Sprites)
