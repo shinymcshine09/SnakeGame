@@ -25,7 +25,7 @@ public static void main(String[] args)
 
 ## Help
 
-If you require any help you can email on the below email.
+If you require any help you can email on the email below.
 
 ## Authors
 
